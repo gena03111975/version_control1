@@ -93,4 +93,50 @@ git branch
 git branch -d existing_branch_name
 ```
 
+```sh
+# Добавление удалённого репозитория
 
+git remote add awesomeapp https://github.com/someurl..
+```
+
+```sh
+## Просмотр удалённых URL-адресов
+
+git remote -v
+```
+
+```sh
+## Отправка изменений в удалённый репозиторий
+
+git push 
+```
+
+```sh
+##  Получение изменений из удалённого репозитория
+
+git pull
+```
+
+```sh
+## Слияние удалённого репозитория с локальным 
+
+git merge origin
+```
+
+```sh
+## Отправка новой ветки в удалённый репозиторий
+
+git push -u origin new_branch
+```
+
+```sh
+## Удаление удалённой ветки
+
+git push --delete origin existing_branch
+```
+
+```sh
+## Использование перебазирования 
+
+git rebase branch_name
+```
