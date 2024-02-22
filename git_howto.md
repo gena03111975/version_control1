@@ -52,3 +52,21 @@ git show 1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29
 
 git show 1af17e
 ```
+
+```sh
+##Просмотр изменений до коммита
+
+git diff
+
+```sh
+## Удаление отслеживаемых файлов из текущего рабочего дерева
+
+git rm dirname/somefile.js
+```
+
+```sh
+## Отмена подготовленных и неподготовленных изменений
+
+git checkout somefile.js
+```
+ 
