@@ -81,3 +81,16 @@ git checkout somefile.js
 git checkout -b new_branch_name
 ```
 
+```sh
+## Просмотр списка веток
+
+git branch
+```
+
+```sh
+## Удаление ветки
+
+git branch -d existing_branch_name
+```
+
+
