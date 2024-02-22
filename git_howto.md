@@ -69,4 +69,15 @@ git rm dirname/somefile.js
 
 git checkout somefile.js
 ```
- 
+
+ ```sh
+ ## Создание новой ветки и переход в неё
+
+ git branch new_branch_name
+```
+
+Но Git не переключится на неё автоматически. Для автоматического перехода нужно добавить флаг -b и параметр checkout.
+
+git checkout -b new_branch_name
+```
+
